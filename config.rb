@@ -21,6 +21,7 @@ page '/*.txt', layout: false
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+
 end
 
 ###
@@ -36,9 +37,15 @@ end
 
 # Build-specific configuration
 configure :build do
+
+
   # Minify CSS on build
   # activate :minify_css
 
   # Minify Javascript on build
   # activate :minify_javascript
 end
+
+  activate :dato,
+  token: '0763c04449189134d5098048608ad17d14ea4e64e6466ec5ec',
+  base_url: 'http://lifeguard-chimpanzee-26586.netlify.com/'

@@ -1,0 +1,11 @@
+  <div class="my-slider">
+  <ul>
+    
+
+
+    <% dato.slider_images.each do |image| %>     
+      <p> <%= image.artist_name %> </p>
+      <%= image_tag "#{image.artist_feature_image}" %>
+    <% end %>
+  </ul>
+</div>

@@ -49,3 +49,9 @@ end
   activate :dato,
   token: '0763c04449189134d5098048608ad17d14ea4e64e6466ec5ec',
   base_url: 'http://lifeguard-chimpanzee-26586.netlify.com/'
+
+activate :external_pipeline,
+  name: :gulp,
+  command: build? ? 'npm run production' : 'npm run gulp',
+  source: ".tmp",
+  latency: 1

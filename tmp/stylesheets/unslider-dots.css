@@ -1,0 +1,34 @@
+/**
+ *   Here's where everything gets included. You don't need
+ *   to change anything here, and doing so might break
+ *   stuff. Here be dragons and all that.
+ */
+/**
+ *   Default variables
+ *
+ *   While these can be set with JavaScript, it's probably
+ *   better and faster to just set them here, compile to
+ *   CSS and include that instead to use some of that
+ *   hardware-accelerated goodness.
+ */
+.unslider-nav ol {
+  list-style: none;
+  text-align: center; }
+
+.unslider-nav ol li {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 4px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  text-indent: -999em;
+  border: 2px solid #fff;
+  cursor: pointer; }
+
+.unslider-nav ol li.unslider-active {
+  background: #fff;
+  cursor: default; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInVuc2xpZGVyLWRvdHMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7OztHQUlHO0FBQ0g7Ozs7Ozs7R0FPRztBQUNIO0VBQ0UsaUJBQWlCO0VBQ2pCLG1CQUFtQixFQUNwQjs7QUFDRDtFQUNFLHNCQUFzQjtFQUN0QixXQUFXO0VBQ1gsWUFBWTtFQUNaLGNBQWM7RUFDZCx3QkFBd0I7RUFDeEIsbUJBQW1CO0VBQ25CLGlCQUFpQjtFQUNqQixvQkFBb0I7RUFDcEIsdUJBQXVCO0VBQ3ZCLGdCQUFnQixFQUNqQjs7QUFDRDtFQUNFLGlCQUFpQjtFQUNqQixnQkFBZ0IsRUFDakIiLCJmaWxlIjoidW5zbGlkZXItZG90cy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqICAgSGVyZSdzIHdoZXJlIGV2ZXJ5dGhpbmcgZ2V0cyBpbmNsdWRlZC4gWW91IGRvbid0IG5lZWRcbiAqICAgdG8gY2hhbmdlIGFueXRoaW5nIGhlcmUsIGFuZCBkb2luZyBzbyBtaWdodCBicmVha1xuICogICBzdHVmZi4gSGVyZSBiZSBkcmFnb25zIGFuZCBhbGwgdGhhdC5cbiAqL1xuLyoqXG4gKiAgIERlZmF1bHQgdmFyaWFibGVzXG4gKlxuICogICBXaGlsZSB0aGVzZSBjYW4gYmUgc2V0IHdpdGggSmF2YVNjcmlwdCwgaXQncyBwcm9iYWJseVxuICogICBiZXR0ZXIgYW5kIGZhc3RlciB0byBqdXN0IHNldCB0aGVtIGhlcmUsIGNvbXBpbGUgdG9cbiAqICAgQ1NTIGFuZCBpbmNsdWRlIHRoYXQgaW5zdGVhZCB0byB1c2Ugc29tZSBvZiB0aGF0XG4gKiAgIGhhcmR3YXJlLWFjY2VsZXJhdGVkIGdvb2RuZXNzLlxuICovXG4udW5zbGlkZXItbmF2IG9sIHtcbiAgbGlzdC1zdHlsZTogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLnVuc2xpZGVyLW5hdiBvbCBsaSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgd2lkdGg6IDZweDtcbiAgaGVpZ2h0OiA2cHg7XG4gIG1hcmdpbjogMCA0cHg7XG4gIGJhY2tncm91bmQ6IHRyYW5zcGFyZW50O1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIHRleHQtaW5kZW50OiAtOTk5ZW07XG4gIGJvcmRlcjogMnB4IHNvbGlkICNmZmY7XG4gIGN1cnNvcjogcG9pbnRlcjtcbn1cbi51bnNsaWRlci1uYXYgb2wgbGkudW5zbGlkZXItYWN0aXZlIHtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgY3Vyc29yOiBkZWZhdWx0O1xufVxuIl0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9 */

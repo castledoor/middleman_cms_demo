@@ -9,11 +9,12 @@
     <title><%= current_page.data.title || "Middleman" %></title>
 
     <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link rel="script" href="/javascript/require.js"/>
+    <script src="bundle.js"></script>
 
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
   </head>
+
 
   <body class="<%= page_classes %>">
     <%= yield %>

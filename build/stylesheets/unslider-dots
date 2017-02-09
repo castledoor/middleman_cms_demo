@@ -11,10 +11,12 @@
  *   CSS and include that instead to use some of that
  *   hardware-accelerated goodness.
  */
+/* line 14, unslider-dots.scss */
 .unslider-nav ol {
   list-style: none;
-  text-align: center;
-}
+  text-align: center; }
+
+/* line 18, unslider-dots.scss */
 .unslider-nav ol li {
   display: inline-block;
   width: 6px;
@@ -25,9 +27,9 @@
   overflow: hidden;
   text-indent: -999em;
   border: 2px solid #fff;
-  cursor: pointer;
-}
+  cursor: pointer; }
+
+/* line 30, unslider-dots.scss */
 .unslider-nav ol li.unslider-active {
   background: #fff;
-  cursor: default;
-}
+  cursor: default; }
